@@ -24,24 +24,22 @@ function App() {
                     </Col>
                     <Col md={8}>
                         <Row>
-                            <Col md={6}>
+                            <Col>
                                 <ServicesOffering />
                             </Col>
-
                         </Row>
                         <Row>
-                            <Col md={6}>
+                            <Col>
                                 <ArticlesPublications />
                             </Col>
-                            <Col md={6}>
+                            <Col>
                                 <WorkWithMe />
                             </Col>
                         </Row>
                         <Row>
-                            <Col md={6}>
+                            <Col>
                                 <LatestWorks />
                             </Col>
-
                         </Row>
                     </Col>
                 </Row>
