@@ -1,5 +1,6 @@
 @import 'variables';
 
+
 html, body, #root {
   height: 100%;
   background-color: var(--background-color);
@@ -13,7 +14,7 @@ html, body, #root {
   background-color: transparent; /* Remova o fundo do container */
 }
 
-.biography, .services-offering, .skills-tools, .articles-publications, .work-with-me, .latest-works {
+.box{
   background-color: var(--component-background-color);
   color: var(--primary-color);
   padding: 20px;
@@ -21,4 +22,7 @@ html, body, #root {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, color 0.3s;
+  font-family: 'Pilat Extended', Courier, monospace;
 }
+
+

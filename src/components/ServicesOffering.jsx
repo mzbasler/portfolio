@@ -2,7 +2,7 @@ import React from "react";
 import "./ServicesOffering.scss";
 
 const ServicesOffering = () => (
-  <div className="services-offering">
+  <div className="services-offering box">
     <h2>Services Offering</h2>
     <div className="d-flex justify-content-between">
       <div className="service">

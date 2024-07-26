@@ -1,3 +1,29 @@
+@font-face {
+  font-family: 'Pilat Extended';
+  src: url('../fonts/PilatExtended-Bold.eot');
+  src: local('Pilat Extended Bold'), local('PilatExtended-Bold'),
+      url('../fonts/PilatExtended-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PilatExtended-Bold.woff2') format('woff2'),
+      url('../fonts/PilatExtended-Bold.woff') format('woff'),
+      url('../fonts/PilatExtended-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Extended';
+  src: url('../fonts/PilatExtended-Regular.eot');
+  src: local('Pilat Extended Regular'), local('PilatExtended-Regular'),
+      url('../fonts/PilatExtended-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PilatExtended-Regular.woff2') format('woff2'),
+      url('../fonts/PilatExtended-Regular.woff') format('woff'),
+      url('../fonts/PilatExtended-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Continue com os outros @font-face do mesmo modo */
+
 // Variáveis de cores para tema claro
 $primary-color-light: #000000;
 $background-color-light: #EEEEEE;
@@ -8,15 +34,25 @@ $primary-color-dark: #FFFFFF;
 $background-color-dark: #131313;
 $component-background-dark: #222222;
 
+// Variável de fonte
+$primary-font: 'Pilat Extended', sans-serif;
+
 // Definindo variáveis de tema atual
 :root {
   --primary-color: #{$primary-color-light};
   --background-color: #{$background-color-light};
   --component-background-color: #{$component-background-light};
+  --primary-font: #{$primary-font};
 }
 
 [data-theme="dark"] {
   --primary-color: #{$primary-color-dark};
   --background-color: #{$background-color-dark};
   --component-background-color: #{$component-background-dark};
+  --primary-font: #{$primary-font};
+}
+
+// Utilizando a variável de fonte
+body {
+  font-family: var(--primary-font);
 }

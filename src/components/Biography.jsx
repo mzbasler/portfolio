@@ -1,20 +1,24 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 import "./Biography.scss";
+import profileImage from '../img/profile.jpg'; // Caminho relativo para a imagem
 
 const Biography = () => (
-  <div className="biography">
+  <div className="biography box">
     <img
-      src="https://via.placeholder.com/150"
-      alt="Profile Picture"
-      style={{
-        width: "150px",
-        height: "150px",
-        borderRadius: "50%",
-        objectFit: "cover",
-      }}
+      className="profile-picture"
+      src={profileImage}
+      alt="Profile"
     />
-    <h2>Maurício Zancanaro Basler</h2>
-    <p>Biography</p>
+    <h2 className="name">
+      Maurício<br/>Zancanaro<br/>Basler
+    </h2>
+    <div className="callToAction">
+      Biography
+      <FontAwesomeIcon icon={faArrowRight} className="icon" />
+    </div>
   </div>
 );
 
