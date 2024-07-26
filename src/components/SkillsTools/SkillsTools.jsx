@@ -3,7 +3,7 @@ import "./SkillsTools.scss";
 
 const SkillsTools = () => (
   <div className="skills-tools box">
-    <h2>Skills & Tools</h2>
+    <h2 className="title-box">Skills & Tools</h2>
     <div className="d-flex justify-content-between">
       <div className="skill">
         <img

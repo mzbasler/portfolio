@@ -1,0 +1,22 @@
+@import '../../styles/variables';
+
+.profile-picture {
+  height: 125px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.callToAction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+}

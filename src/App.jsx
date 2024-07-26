@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Biography from './components/Biography';
-import ServicesOffering from './components/ServicesOffering';
-import SkillsTools from './components/SkillsTools';
-import WorkWithMe from './components/WorkWithMe';
-import ArticlesPublications from './components/ArticlesPublications';
-import LatestWorks from './components/LatestWorks';
+import Biography from './components/Biography/Biography';
+import ServicesOffering from './components/ServicesOffering/ServicesOffering';
+import SkillsTools from './components/SkillsTools/SkillsTools';
+import WorkWithMe from './components/WorkWithMe/WorkWithMe';
+import ArticlesPublications from './components/ArticlesPublications/ArticlesPublications';
+import LatestWorks from './components/LatestWorks/LatestWorks';
 import ThemeSwitcher from './components/ThemeSwitcher';
 import './App.scss';
 
@@ -16,15 +16,15 @@ function App() {
             <Container>
             <ThemeSwitcher />
                 <Row>
-                    <Col md={4}>
+                    <Col md={3}>
                         <Biography />
                     </Col>
-                    <Col md={8}>
+                    <Col md={9}>
                         <Row>
-                            <Col md={6}>
+                            <Col md={7}>
                                 <ServicesOffering />
                             </Col>
-                            <Col md={6}>
+                            <Col md={5}>
                                 <SkillsTools />
                             </Col>
                         </Row>
