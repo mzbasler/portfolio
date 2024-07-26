@@ -7,11 +7,7 @@ const LatestWorks = () => (
   <div className="box">
     
     <h2 className="title-box">See My Latest Work</h2>
-    <img
-      className="work-image"
-      src="https://via.placeholder.com/150"
-      alt="Imagem do serviço"
-    />
+
     
     <div className="callToAction">
       <p className="work-description">All projects</p>

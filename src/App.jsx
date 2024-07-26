@@ -7,6 +7,7 @@ import WorkWithMe from './components/WorkWithMe/WorkWithMe';
 import ArticlesPublications from './components/ArticlesPublications/ArticlesPublications';
 import LatestWorks from './components/LatestWorks/LatestWorks';
 import ThemeSwitcher from './components/ThemeSwitcher';
+import Profiles from './components/Profiles/Profiles';
 import './App.scss';
 
 function App() {
@@ -18,15 +19,15 @@ function App() {
                 <Row>
                     <Col md={3}>
                         <Biography />
+                        <SkillsTools />
+                        <Profiles />
                     </Col>
-                    <Col md={9}>
+                    <Col md={8}>
                         <Row>
-                            <Col md={7}>
+                            <Col md={6}>
                                 <ServicesOffering />
                             </Col>
-                            <Col md={5}>
-                                <SkillsTools />
-                            </Col>
+
                         </Row>
                         <Row>
                             <Col md={6}>
@@ -37,9 +38,10 @@ function App() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
+                            <Col md={6}>
                                 <LatestWorks />
                             </Col>
+
                         </Row>
                     </Col>
                 </Row>

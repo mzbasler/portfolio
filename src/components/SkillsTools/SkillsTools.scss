@@ -1,3 +1,51 @@
 @import '../../styles/variables';
 
+.tools-icon{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.tools-icon:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+    color: #36F272;;
+    border-color: #36F272;
+}
+
+.tools-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.skills-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.skills{
+    font-size: 8px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.skills:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+    color: #36F272;;
+    border-color: #36F272;
+}
 
