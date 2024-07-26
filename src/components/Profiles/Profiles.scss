@@ -1,22 +1,22 @@
-.profile-icons-wrapper{
-    display: flex;
-    justify-content: center; /* Centraliza os itens */
-    align-items: center;
+.profile-icons-wrapper {
+  display: flex;
+  justify-content: center; /* Centraliza os itens */
+  align-items: center;
 }
 
-.profile-icons{
-    margin: 10px; /* Espaçamento lateral entre os itens */
-    height: 35px;
-    width: 35px;
-    border: 1px solid rgb(194, 194, 194);
-    border-radius: 50%;
-    padding: 10px;
+.profile-icons {
+  margin: 10px; /* Espaçamento lateral entre os itens */
+  height: 30px;
+  width: 30px;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 50%;
+  padding: 10px;
 }
 
-.profile-icons:hover{
-    transform: scale(1.1);
-    transition: 0.2s;
-    cursor: pointer;
-    color: #36F272;;
-    border-color: #36F272;
+.profile-icons:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  cursor: pointer;
+  color: white;
+  background-color: black;
 }

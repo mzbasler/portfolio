@@ -1,51 +1,48 @@
-@import '../../styles/variables';
+@import "../../styles/variables";
 
-.tools-icon{
-    height: 20px;
-    width: 20px;
-    margin: 5px;
-    border: 1px solid rgb(194, 194, 194);
-    padding: 10px;
-    border-radius: 20%;
+.tools-icon {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+  border: 1px solid rgb(194, 194, 194);
+  padding: 10px;
+  border-radius: 6px;
 }
 
-.tools-icon:hover{
-    transform: scale(1.1);
-    transition: 0.2s;
-    cursor: pointer;
-    color: #36F272;;
-    border-color: #36F272;
+.tools-icon:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  color: white;
+  background-color: black;
 }
 
-.tools-wrapper{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.tools-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-.skills-wrapper{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.skills-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-.skills{
-    font-size: 8px;
-    border: 1px solid rgb(194, 194, 194);
-    border-radius: 10%;
-    margin: 5px;
-    padding: 5px;
+.skills {
+  font-size: 12px;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 6px;
+  margin: 10px;
+  padding: 10px;
 }
 
-.skills:hover{
-    transform: scale(1.1);
-    transition: 0.2s;
-    cursor: pointer;
-    color: #36F272;;
-    border-color: #36F272;
+.skills:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  color: white;
+  background-color: black;
 }
-

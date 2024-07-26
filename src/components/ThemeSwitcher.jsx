@@ -1,25 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const ThemeSwitcher = () => {
-    const [isDarkMode, setIsDarkMode] = useState(() => {
-        return localStorage.getItem('theme') === 'dark';
-    });
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    return localStorage.getItem("theme") === "dark";
+  });
 
-    useEffect(() => {
-        const theme = isDarkMode ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem('theme', theme);
-    }, [isDarkMode]);
+  useEffect(() => {
+    const theme = isDarkMode ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  }, [isDarkMode]);
 
-    const toggleTheme = () => {
-        setIsDarkMode(!isDarkMode);
-    };
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+  };
 
-    return (
-        <button onClick={toggleTheme} style={{ margin: '20px' }}>
-            Switch to {isDarkMode ? 'Light' : 'Dark'} Theme
-        </button>
-    );
+  return (
+    <button onClick={toggleTheme} style={{ margin: "20px" }}>
+      Switch to {isDarkMode ? "Light" : "Dark"} Theme
+    </button>
+  );
 };
 
 export default ThemeSwitcher;
